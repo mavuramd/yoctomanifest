@@ -3,8 +3,12 @@
   <remote fetch="git://git.yoctoproject.org" name="yocto"/>
   <remote fetch="git://git.openembedded.org" name="openembedded"/>
   <remote fetch="https://github.com/mavuramd" name="mavuramd"/>
-
+  <remote fetch="https://github.com/meta-qt5" name="metaqt5"/>
+  
   <project name="poky" remote="yocto" path="poky" revision="warrior"/>
   <project name="meta-openembedded" remote="openembedded" path="poky/meta-openembedded" revision="warrior"/>
+  <project name="meta-qt5" remote="metaqt5" path="poky/meta-qt5" revision="warrior"/>
   <project name="meta-bbb" remote="mavuramd" path="bbb/meta-bbb" revision="warrior"/>
+  <project name="bbconffiles" remote="mavuramd" path="bbb/build/conf" revision="warrior-sysvinit"/>
+  
 </manifest>
