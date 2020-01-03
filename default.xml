@@ -8,7 +8,7 @@
   <project name="poky" remote="yocto" path="poky" revision="warrior"/>
   <project name="meta-openembedded" remote="openembedded" path="poky/meta-openembedded" revision="warrior"/>
   <project name="meta-qt5" remote="metaqt5" path="poky/meta-qt5" revision="warrior"/>
-  <project name="meta-bbb" remote="mavuramd" path="bbb/meta-bbb" revision="warrior-sysvinit"/>
-  <project name="bbconffiles" remote="mavuramd" path="bbb/build/conf" revision="warrior-sysvinit"/>
+  <project name="meta-bbb" remote="mavuramd" path="bbb/meta-bbb" revision="warrior-systemd"/>
+  <project name="bbconffiles" remote="mavuramd" path="bbb/build/conf" revision="warrior-systemd"/>
   
 </manifest>
