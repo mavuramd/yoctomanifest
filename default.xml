@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://git.yoctoproject.org" name="yocto"/>
+  <remote fetch="git://git.openembedded.org" name="openembedded"/>
+  <remote fetch="https://github.com/mavuramd" name="mavuramd"/>
+
+  <project name="poky" remote="yocto" path="poky" revision="warrior"/>
+  <project name="meta-openembedded" remote="openembedded" path="poky/meta-openembedded" revision="warrior"/>
+  <project name="meta-bbb" remote="mavuramd" path="bbb/meta-bbb" revision="warrior"/>
+</manifest>
