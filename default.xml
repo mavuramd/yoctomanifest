@@ -3,7 +3,7 @@
   <remote fetch="git://git.yoctoproject.org" name="yocto"/>
   <remote fetch="git://git.openembedded.org" name="openembedded"/>
   <remote fetch="git@github.com/mavuramd" name="mavuramd"/>
-  <remote fetch="git@github.com/meta-qt5 name="metaqt5"/>
+  <remote fetch="git@github.com/meta-qt5" name="metaqt5"/>
   
   <project name="poky" remote="yocto" path="poky" revision="warrior"/>
   <project name="meta-openembedded" remote="openembedded" path="poky/meta-openembedded" revision="warrior"/>
