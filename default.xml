@@ -10,7 +10,7 @@
   
   <project name="poky" remote="yocto" path="poky"/>
   <project name="meta-openembedded" remote="openembedded" path="poky/meta-openembedded"/>
-  <project name="meta-security" remote="openembedded" path="poky/meta-security"/>
+  <project name="meta-security" remote="yocto" path="poky/meta-security"/>
   <project name="meta-qt5" remote="metaqt5" path="poky/meta-qt5"/>
   <project name="meta-jumpnow" remote="jumpnow" path="bbb/meta-jumpnow"/>
   <project name="meta-bbb" remote="jumpnow" path="bbb/meta-bbb"/>
