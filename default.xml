@@ -12,7 +12,7 @@
   <project name="meta-openembedded" remote="openembedded" path="poky/meta-openembedded"/>
   <project name="meta-security" remote="openembedded" path="poky/meta-security"/>
   <project name="meta-qt5" remote="metaqt5" path="poky/meta-qt5"/>
-  <project name="meta-jumpnow" remote="jumpnow" path="bbb/meta-bbb"/>
+  <project name="meta-jumpnow" remote="jumpnow" path="bbb/meta-jumpnow"/>
   <project name="meta-bbb" remote="jumpnow" path="bbb/meta-bbb"/>
   <project name="bbconffiles" remote="mavuramd" path="bbb/build/conf" revision="zeus-systemd"/>
   <project name="meta-dilip-bb" remote="mavuramd" path="bbb/meta-dilip-bb" revision="master"/>
