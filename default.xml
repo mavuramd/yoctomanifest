@@ -11,7 +11,6 @@
   <project name="poky" remote="yocto" path="poky"/>
   <project name="meta-openembedded" remote="openembedded" path="poky/meta-openembedded"/>
   <project name="meta-qt5" remote="metaqt5" path="poky/meta-qt5"/>
-  <project name="meta-jumpnow" remote="jumpnow" path="bbb/meta-bbb"/>
   <project name="meta-bbb" remote="jumpnow" path="bbb/meta-bbb"/>
   <project name="bbconffiles" remote="mavuramd" path="bbb/build/conf" revision="warrior-sysvinit"/>
   <project name="meta-dilip-bb" remote="mavuramd" path="bbb/meta-dilip-bb" revision="master"/>
