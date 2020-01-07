@@ -15,5 +15,5 @@
   <project name="meta-jumpnow" remote="jumpnow" path="bbb/meta-jumpnow"/>
   <project name="meta-bbb" remote="jumpnow" path="bbb/meta-bbb"/>
   <project name="bbconffiles" remote="mavuramd" path="bbb/build/conf" revision="zeus-sysvinit"/>
-  <project name="meta-dilip-bb" remote="mavuramd" path="bbb/meta-dilip-bb" revision="master"/>
+  <project name="meta-dilip-bb" remote="mavuramd" path="bbb/meta-dilip-bb"/>
 </manifest>
