@@ -13,5 +13,5 @@
   <project name="meta-qt5" remote="metaqt5" path="poky/meta-qt5"/>
   <project name="meta-bbb" remote="jumpnow" path="bbb/meta-bbb"/>
   <project name="bbconffiles" remote="mavuramd" path="bbb/build/conf" revision="warrior-sysvinit"/>
-  <project name="meta-dilip-bb" remote="mavuramd" path="bbb/meta-dilip-bb" revision="master"/>
+  <project name="meta-dilip-bb" remote="mavuramd" path="bbb/meta-dilip-bb"/>
 </manifest>
