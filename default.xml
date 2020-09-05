@@ -12,6 +12,6 @@
   <project name="meta-openembedded" remote="openembedded" path="poky/meta-openembedded"/>
   <project name="meta-qt5" remote="metaqt5" path="poky/meta-qt5"/>
   <project name="meta-bbb" remote="jumpnow" path="bbb/meta-bbb"/>
-  <project name="bbconffiles" remote="mavuramd" path="bbb/build/conf" revision="warrior-sysvinit"/>
+  <project name="bbconffiles" remote="mavuramd" path="bbb/build/conf" revision="dunfell-systemd"/>
   <project name="meta-dilip-bb" remote="mavuramd" path="bbb/meta-dilip-bb"/>
 </manifest>
